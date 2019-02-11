@@ -541,6 +541,7 @@ grid-row: 5;
 
 
             }
+            .advwrap{position: relative;}
             .handpensq{
                 height: 412px;
 
@@ -548,7 +549,7 @@ width: 412px;
 
 top: -54px;
 
-right: 1085px;
+right: 1070px;
 
 overflow: hidden;
 
@@ -582,6 +583,23 @@ position: absolute;
                 transform: rotate(45deg);
                 
                 position: absolute;}
+                .greyinfo{position: absolute;
+
+                    display: flex;
+                    
+                    flex-direction: column;
+                    
+                    color: white;
+                    
+                    bottom: 42px;
+                    
+                    text-align: center;
+                    
+                    left: 68px;
+                    
+                    align-items: center;
+                    
+                    transform: rotate(-45deg);}
             
             .purplesq{height: 310px;
 
@@ -596,6 +614,43 @@ position: absolute;
                 right: 273px;
                 
                 top: 112px;}
+                .inpurpsq{height: 40px;
+
+                    width: 40px;
+                    
+                    background-color: #435465;
+                    
+                    position: relative;
+                    
+                    left: 10px;
+                    
+                    top: 10px; }
+                .crosslogo{background-image:url(../img/crosslogo.svg) ;
+                    position: relative;
+                    height: 100px;
+                    width: 100px;
+                    transform: rotate(-45deg);
+                    top: 40px;
+                    left: 75px;
+                
+                }
+                .purptext{position: relative;
+
+                    text-transform: uppercase;
+                    
+                    font-size: 24px;
+                    
+                    color: white;
+                    
+                    display: flex;
+                    
+                    justify-content: center;
+                    
+                    transform: rotate(-45deg);
+                    
+                    top: 15px;
+                    
+                    left: 41px;}
              
             .pointersq{position: absolute;
 
@@ -607,7 +662,7 @@ position: absolute;
                 
                 overflow: hidden;
                 
-                top: 417px;
+                top: 398px;
                 
                 right: 938px;}
                 .pointimg{transform: rotate(-45deg);
@@ -630,12 +685,12 @@ position: absolute;
                 
                 overflow: hidden;
                 
-                bottom: -224px;
+                top: 620px;
                 
-                right: 558px;
+                right: 580px;
             
             
-            
+            z-index: 1;
             
             
             }
@@ -658,7 +713,7 @@ position: absolute;
                 
                 overflow: hidden;
                 
-                right: 478px;
+                right: 490px;
                 
                 top: 393px;}
                 .girlsimg{ transform: rotate(-45deg);
@@ -692,7 +747,7 @@ position: absolute;
                 
                 overflow: hidden;
                 
-                right: 133px;
+                right: 150px;
                 
                 top: 407px;}
                 .studimg{transform: rotate(-45deg);
@@ -769,7 +824,73 @@ position: absolute;
                 background: rgba(0,0,0,0.4);
                 
                 top: 380px;}
-            footer{position: relative;
+                .arrow_left{position: absolute;
+
+                    display: flex;
+                    
+                    justify-content: center;
+                    
+                    left: 0;
+                    
+                    padding-left: 15px;
+                 }
+                 .arrow_right{position: absolute;
+
+                    display: flex;
+                    
+                    justify-content: center;
+                    
+                    right: 0;
+                    
+                    padding-right: 15px;}
+                    .points{position: absolute;
+
+                        display: flex;
+                        
+                        justify-content: center;
+                        
+                        bottom: 28px;
+                        
+                        z-index: 1;}
+                 .cubpoint{width: 0;
+
+                    height: 0;
+                    
+                    border-style: solid;
+                    
+                    border-width: 5px 5px 5px 5px;
+                    
+                    border-color: white;
+                    
+                    transform: rotate(45deg);
+                    
+                    margin-left: 10px;
+                    
+                    margin-right: 10px;}
+                    .ingeborga{position: absolute;
+
+                        display: flex;
+                        
+                        top: 43px;
+                        
+                        color: white;}
+            .words{position: absolute;
+
+                display: flex;
+                
+                justify-content: center;
+                
+                width: 71%;
+                
+                color: white;
+                
+                text-align: center;}
+            
+            
+            
+            
+            
+                    footer{position: relative;
 
                 width: 100%;
                 
@@ -790,4 +911,60 @@ position: absolute;
                 
                 position: relative;
                 
-                grid-column: 1/13;}
+                grid-column: 1/13;
+            background-size: cover;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*---------------------------------media-----------------*/
+            @media screen and (min-width: 1510px) {
+                .handpensq {
+
+                   
+                    left: 11px;}
+
+
+            }  
+            @media screen and (min-width: 1580px) {
+                .pointersq {
+
+                    
+                    left: 258px;}
+            }
+            @media screen and (min-width: 1634px) {
+            .graysq{left: 568px;}
+            
+            
+            }
+            @media screen and (min-width: 1676px) {
+                .auditsq{left: 665px;}
+            }
+            @media screen and (min-width: 1704px) {
+                .twogirlssq{left:969px;}
+            }
+            @media screen and (min-width: 1809px) {
+                .purplesq{left: 1209px;}
+            }
+            @media screen and (max-width: 1300px) {
+                .girl-block,.brownsq,.langsq{transform: rotate(45deg) scale(0.8);}
+                .advwrap{left: 43px;
+
+                    transform: scale(0.8);}
+                    .advanteges {
+
+                        height: 667px;}
+                        content {grid-template-rows: 590px 120px 100px 300px 140px 666px 800px}
+            }
