@@ -1,0 +1,516 @@
+body{    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.wrap1{width: 100%;
+    margin: 0 auto;
+    height: 1400px;
+    background-image: url("../img/courses/fffoo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    max-width: 1960px;
+    position: relative;}
+    .wrap2{ width: 100%;
+        margin: 0 auto;
+        background-image: url(../img/bluebg.svg);
+        background-repeat: no-repeat;
+        background-size: 305%;
+        background-position: top;
+        max-width: 1960px;
+        position: relative;
+        overflow: hidden;}
+        .navi {
+            width: 100%;
+            display: flex;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: -150px;
+            left: 60px;
+            transform: rotate(45deg);
+            width: 300px;
+            height: 300px;
+            background-color: rgb(186, 152, 152);
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        .logo1 {
+            background-image: url(../img/logo.png);
+            background-repeat: no-repeat;
+            background-position: 50% 72%;
+            width: 100%;
+            height: 100%;
+            transform: rotate(-45deg);
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            
+        }
+        .nomber > span {
+            font-size: 14pt;
+            font-weight: 400;
+        }
+        
+        
+        .menu1 {
+            flex:9;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .nomber { flex: 3;
+            display: flex;
+        
+        }
+        .VFI {
+            display: flex;
+            list-style: none;
+        }
+        .lii {
+            margin-right:30px;
+        }
+        
+        .menu {
+            position: absolute;
+            width: 75%;
+            right: 0;
+            top: 0;
+            display: flex;
+            margin: 20px 0%;
+        }
+        a {
+            width: 15%;
+            display: inline-block;
+            text-align: center;
+            font-size: 14pt;
+            color: black;
+        }
+        a:hover {
+            text-decoration: overline;
+            color: red;
+        }
+        @media (min-width: 320px) and (max-width: 1500px) {
+            .menu {width: 58%;}
+            a  { width: 30%;
+                 font-size: 11pt; }
+            .kubs { left: 12%; }
+            .kubs:after {
+                left: -80px;
+            }
+        }
+        @media (min-width: 1500px) and (max-width: 4500px) {
+            .kubs { left: 25%; }
+            .kubs:after {
+                left: -175px;
+            }
+        }
+        
+        .kubs {
+            position: absolute;
+            height: 500px;
+            top: 235px;
+        }
+        
+        .kubs:after{
+            content: "Какой язык хотите изучать?";
+            position: absolute;
+            top: 67px;
+            font-weight: 600;
+            font-size: 21pt;
+            text-align: left;
+            width: 230px;
+        }
+        .kubs::before {
+            content: "выберете ваш уровень владения языком";
+            position: absolute;
+            top: 510px;
+            left: 145px;
+            font-weight: 400;
+            font-size: 26pt;
+            width: 680px;
+        }
+        .cub {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            transform: rotate(45deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .cub1 {
+            background-color: rgb(186, 203, 220);
+            border: 3px solid;
+            font-size: 11pt;
+            color: black;
+            text-align: center;
+            box-sizing: border-box;
+            position: relative;
+            top: 261px;
+            left: 55px;
+        }
+        .cub2 {
+            top: 140px;
+            left: 180px;
+        }
+        .cub_q{
+            background-size: contain;
+            transform: rotate(-45deg);
+            width: 140%;
+            height: 140%;
+            position: absolute;
+        }
+        .cub22 {
+            background-image: url(../img/courses/island.png);
+        }
+        .cub32 {
+            background-image: url(../img/courses/fin.png); 
+        }
+        .cub42 {
+            background-image: url(../img/courses/shved.png); 
+        }
+        .cub52 {
+            background-image: url(../img/courses/dat.png);
+        }
+        .cub3 {
+            background: rgb(67, 84, 101);
+            top: 140px;
+            left: 429px;
+        }
+        .cub3:after {
+            content: "";
+            position: absolute;
+            background: rgb(67, 33, 50);
+            top: 100px;
+            left: -76px;
+            width: 50px;
+            height: 50px;
+        }
+        .cub4 {
+            background: rgb(67, 33, 50);
+            left: 305px;
+            bottom: 87px;
+        }
+        .cub5 {
+            background: rgb(67, 33, 50);
+            left: 670px;
+            top: 140px;
+        }
+        .cub6, .cub66, .cub666 {
+            transform: rotate(45deg);
+        }
+        .cub6 {
+            background: rgb(67, 84, 101);
+            width: 80px;
+            height: 80px;
+            position: relative;
+            top: -45px;
+            left: 585px;
+        }
+        .cub66 {
+            background: #fff;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            transform: initial;
+        }
+        .cub666 {
+            background: black;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            transform: initial;
+        }
+        .cu {
+            transform: rotate(-45deg);
+            font-size: 14pt;
+            letter-spacing: 2px;
+            color: #fff;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+        .cun {
+            transform: rotate(-45deg);
+            font-size: 14pt;
+            color: black;
+            left: 0px;
+            top: 40px;
+            position: absolute;
+        }
+        .cun1 {
+            transform: rotate(-45deg);
+            font-size: 10pt;
+            font-weight: 500;
+            color: black;
+            position: absolute;
+            top: 60px;
+            left: 25px;
+            width: 116px;
+            text-decoration: underline;
+        }
+        .cun1:hover {
+            text-decoration: underline; 
+        }
+        .cub1::after {
+            content: "";
+            width: 20px;
+            height: 1px;
+            border-top: 2px solid;
+            position: absolute;
+            top: 110px;
+            left: 99px;
+            transform: rotate(-45deg);
+        
+        }
+        .cub1::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid;
+            border-right: 2px solid;
+            position: absolute;
+            top: 100px;
+            left: 110px;
+            transform: rotate(0deg);
+        }
+        .listnis {
+            position: absolute;
+            bottom: 30px;
+            width: 100%;
+            height: 40%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .l {
+            width: 29%;
+            height: 225px;
+            background: rgba(0, 0, 0, 0.5);
+            position: relative;
+            border-radius: 3px;
+            transition: 0.6s ease-in-out;
+            transform: matrix3d(1,0,0,0,0,1,0,0.00,0,0,1,0,0,0,0,1);
+            display: flex;
+        }
+        .l2 {
+            position: relative;}
+            .l:hover {
+                transform: matrix3d(1,0,0,0,0,1,0,0.00,0,0,1,0,0,0,0,0.95);
+                background: rgba(0, 0, 0, 0.6);
+            }
+            form {
+                visibility: hidden;
+                position: absolute;
+                left: -100%;
+            }
+            .label_ch{
+                width: 30px;
+                height: 30px;
+                background-color: antiquewhite;
+                position: absolute;
+                top: 90px;
+                left: 30px;
+                transform: rotate(-45deg);
+                transition: 0.4s ease;
+                z-index: 2;
+            }
+            
+            
+            #ch1, #ch2, #ch3, #ch4, #ch5, #ch6 {
+                visibility: hidden;
+            }
+            .button {
+                position: absolute;
+                bottom: -28px;
+                width: 170px;
+                height: 35px;
+                background-color: rgb(186, 203, 220);
+                font-size: 16pt;
+                letter-spacing: 2px;
+                border-radius: 5px;
+                transition: 0.1s ease-in-out;
+                border: 0px solid transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .button:hover {
+                border: 2px solid rgb(49, 49, 49);;
+                color: rgb(49, 49, 49);
+            }
+            .button:active {
+                background-color: rgb(49, 49, 49);
+                color: #fff; }
+            .div {
+                width: 50px;
+                height: 50px;
+                background-color: bisque;
+                position: relative;
+                left: 0;
+            }
+            .label_ch_1, .label_ch_2, .label_ch_3, .label_ch_4, .label_ch_5, .label_ch_6 {
+                width: 50px;
+                height: 50px;
+                border: 2px solid transparent;
+                position: absolute;
+                top: 80px;
+                left: 20px;
+                transform: rotate(-45deg);
+                z-index: 0;
+                transition: 0.4s ease-in;
+            }
+            #ch1:checked ~ .label_ch_1 {
+                border: 2px solid rgb(186, 203, 220);
+            }
+            #ch2:checked ~ .label_ch_2 {
+                border: 2px solid rgb(186, 203, 220);
+            }
+            #ch3:checked ~ .label_ch_3 {
+                border: 2px solid rgb(186, 203, 220);
+            }
+            #ch4:checked ~ .label_ch_4 {
+                border: 2px solid rgb(186, 203, 220);
+            }
+            #ch5:checked ~ .label_ch_5 {
+                border: 2px solid rgb(186, 203, 220);
+            }
+            #ch6:checked ~ .label_ch_6 {
+                border: 2px solid rgb(186, 203, 220);
+            }
+            .p, .text {
+                color: #fff;
+                transform: matrix(0.8, 0, 0, 0.8, 46, 50);
+                width: 90%;
+                font-size: 14px;
+                text-align: left;
+            }
+            header {
+                color: #fff;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                transform: matrix(1, 0, 0, 1, 0, 30);
+            }
+            h1 {
+                font-size: 2.0rem;
+            }
+            main{
+                position: relative;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                transform: matrix(1, 0, 0, 1, 0, 50);
+                height: 50%;
+            }.nis_l{
+                width: 476px;
+                height: 300px;
+                background-image:  url("../img/courses/pattern.png"), linear-gradient(to top, rgb(186, 203, 220), rgb(226, 232, 238));
+                background-position: 10% 50%;
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .footer{
+                position: relative;
+                display: flex;
+                width: 100%;
+                transform: matrix(1, 0, 0, 1, 0, 45);
+                justify-content: flex-end;
+            }
+            .footer_n{
+                width: 200px;
+                height: 80px;
+                border: 1px solid #fff;
+                padding: 11px 20px 0px 20px;
+                text-align: center;
+                color: #fff;
+                font-size: 18px;
+            }
+            .n {
+                margin: 0px 30px 0px 30px ;
+            }
+            footer{
+                width: 100%;
+                position: relative;
+                height: 470px;
+                transform: matrix(1, 0, 0, 1, 0, 45);
+                margin-top: 20px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                background-color:#E5E5E54D
+                
+            }
+            .footer_block{
+                background-color: rgb(186, 152, 152);
+                width: 260px;
+                height: 260px;
+                position: absolute;
+                left: -180px;
+                top: 97px;
+                transform: rotate(-45deg);
+            }
+            .data{
+                width: 290px;
+                margin-left: 50px;
+            }
+            .data_ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .li_nis{
+                font-size: 12px;
+                margin-left: 110px;
+                display: none;
+            }
+            
+            .data_ul:hover{
+                background: #fff;
+            }
+            .data_ul:hover > .li_nis{
+                display: inline;
+            }
+            .data_ul{
+                margin-bottom: 10px;
+                transition-duration: 1s ;
+                transition-timing-function: cubic-bezier(.46,-0.07,.6,1.45);
+            }
+            .text2{
+                color: #fff;
+                width: 90%;
+                font-size: 20px;
+                text-align: left;
+                transform: matrix(0.8, 0, 0, 0.8, 46, 50);
+            }
+            .footer_wap{
+                width: 90%;
+                height: 310px;
+                display: flex;
+            }
+            ul{
+                list-style: none;
+                font-size: 16pt;
+            }
+            .footer_wap::after{
+                content: url("../img/courses/logowhite.png");
+                position: absolute;
+                top: 100px;
+                left: 80px;
+            }
+            
